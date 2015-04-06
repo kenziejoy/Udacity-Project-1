@@ -77,11 +77,14 @@ hr {
 }
 
 /* Media Queries */
-@media (max-width:570px) {
+@media (max-width:500px) {
     .logo {
         display:none;
     }
     .title-super {
-    font-size: 2.5em;
+        font-size: 2em;
+    }
+    .social {
+        font-size:1.5em;
     }
 }
