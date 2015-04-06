@@ -1,3 +1,10 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
 /* Overall Site */
 body {
     font-family: 'Lato', sans-serif;
@@ -8,7 +15,25 @@ img, embed, object, video {
     max-width:100%;
 }
 
+img {
+    border-radius: 10px;
+}
+
+a {
+    color:#F8981C;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+a:hover {
+    text-decoration: overline;
+    font-size: 2em;
+    color:#747704;
+}
+
+
 /*Text*/
+
 .text-muted {
     color:#BCBBBB;
 }
@@ -23,4 +48,34 @@ img, embed, object, video {
 
 .title-logo {
     margin-top:20px;
+}
+
+/*Specific*/
+.logo {
+    color:#F8981C;
+    font-size:8em;
+}
+
+.project {
+    padding-bottom: 50px;
+}
+
+.project h3 {
+    text-transform: uppercase;
+}
+
+.social {
+    background-color:#F8981C;
+    font-size:3em;
+    min-height: 100px;
+    padding-top: 30px;
+}
+
+.social a {
+    color:#ffffff;
+    padding:10px;
+}
+
+.social a:hover {
+    text-decoration: none;
 }
