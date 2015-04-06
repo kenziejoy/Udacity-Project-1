@@ -79,3 +79,8 @@ a:hover {
 .social a:hover {
     text-decoration: none;
 }
+
+.modal-body {
+    font-size: 1.5em;
+    line-height: 200%;
+}
