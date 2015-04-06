@@ -27,7 +27,7 @@ a {
 
 a:hover {
     text-decoration: overline;
-    font-size: 2em;
+    font-size: 1.7em;
     color:#747704;
 }
 
@@ -47,13 +47,14 @@ a:hover {
 }
 
 .title-logo {
-    margin-top:20px;
+    margin-top:10%;
 }
 
 /*Specific*/
 .logo {
     color:#F8981C;
     font-size:8em;
+    display: flex;
 }
 
 .project {
@@ -84,3 +85,6 @@ a:hover {
     font-size: 1.5em;
     line-height: 200%;
 }
+
+@media (max-width:570px) {
+
